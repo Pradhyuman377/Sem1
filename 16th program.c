@@ -27,7 +27,12 @@ int main ()
     }
     else
     {
-        printf("%d is the greatest number among all.",b);
+        if(b>c) {
+            printf("%d is the greatest number among all.",b);
+        }
+        else {
+            printf("%d is the greatest number among all.",c);
+        }
     }
     return 0;
 
