@@ -14,10 +14,9 @@ void main()
       scanf("%d",&a[i]);
     }
      j = &a[0];
-     b[0]=*(j+n-1);
      for(i=1;i<n;i++)
      {
-        b[n-i] = *(j+i-1);
+        b[i] = *(j+n-1-i);
      }
      for(i=0;i<n;i++)
      {
